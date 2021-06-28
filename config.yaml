@@ -1,0 +1,7 @@
+appname: redcow vms event reciever
+intelliserver: 192.168.200.50:7681
+id: intellivix
+password: pass0001!
+# / 로 끝나야함.
+# imgpath: /home/baltop/work/
+mrsserver: 192.168.11.100:9201
