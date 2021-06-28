@@ -119,7 +119,7 @@ func main() {
 			fmt.Printf("====================================\n")
 			// ss := config.(*baseConfig)
 		},
-		Verbose: true,
+		Verbose: false,
 	}).Load(&config, "./config.yaml")
 	if error != nil {
 		log.Fatal(error)
