@@ -15,6 +15,8 @@ import (
 	logging "github.com/sacOO7/go-logger"
 )
 
+// https://github.com/sacOO7/GoWebsocket
+
 type Empty struct {
 }
 
@@ -52,10 +54,6 @@ type ConnectionOptions struct {
 	UseSSL         bool
 	Proxy          func(*http.Request) (*url.URL, error)
 	Subprotocols   []string
-}
-
-// todo Yet to be done
-type ReconnectionOptions struct {
 }
 
 func New(url string) WebSocket {
